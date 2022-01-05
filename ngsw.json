@@ -1,0 +1,101 @@
+{
+  "configVersion": 1,
+  "timestamp": 1641415236569,
+  "index": "/angularBlog/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/angularBlog/750.043ddff8162ce100.js",
+        "/angularBlog/923.44dc4e2b258943d1.js",
+        "/angularBlog/favicon.ico",
+        "/angularBlog/index.html",
+        "/angularBlog/main.5fc74822b8df59f4.js",
+        "/angularBlog/manifest.webmanifest",
+        "/angularBlog/polyfills.0d8d7acc5405c837.js",
+        "/angularBlog/runtime.b7ae2a2a4d7a399e.js",
+        "/angularBlog/styles.6b8f4116314562d9.css"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Roboto"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/angularBlog/assets/icons/icon-128x128.png",
+        "/angularBlog/assets/icons/icon-144x144.png",
+        "/angularBlog/assets/icons/icon-152x152.png",
+        "/angularBlog/assets/icons/icon-192x192.png",
+        "/angularBlog/assets/icons/icon-384x384.png",
+        "/angularBlog/assets/icons/icon-512x512.png",
+        "/angularBlog/assets/icons/icon-72x72.png",
+        "/angularBlog/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "firebase-posts",
+      "patterns": [
+        "https:\\/\\/angular-blog-67fdc-default-rtdb\\.firebaseio\\.com\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 5,
+      "maxAge": 0,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/angularBlog/750.043ddff8162ce100.js": "01222894ad4e532ca34d0c82df423dc8cb7fb6f3",
+    "/angularBlog/923.44dc4e2b258943d1.js": "ac4ce0099090c6ffbeb12aceb870902045842d99",
+    "/angularBlog/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/angularBlog/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/angularBlog/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/angularBlog/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/angularBlog/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/angularBlog/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/angularBlog/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/angularBlog/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/angularBlog/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/angularBlog/index.html": "c295a10cdca686df8ada0defa4624e75966dfbd8",
+    "/angularBlog/main.5fc74822b8df59f4.js": "b1cf300f9ba0f17f04f8394b2581a44648e495e8",
+    "/angularBlog/manifest.webmanifest": "2a72c286bc30995c7140f3c238856fc741ff5ba8",
+    "/angularBlog/polyfills.0d8d7acc5405c837.js": "8a68300df8f407a1bddad72337c86bdfa51e5498",
+    "/angularBlog/runtime.b7ae2a2a4d7a399e.js": "c41b8299d00cec2138438857cd4f5cba048a3207",
+    "/angularBlog/styles.6b8f4116314562d9.css": "de94ddc358feb7d1406d30fa8a8dd698d453ae81"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
